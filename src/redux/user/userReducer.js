@@ -25,6 +25,7 @@ const initialState = {
                 users: [],
                 error: action.payload
             }
+        default: return state
     }
 }
 
